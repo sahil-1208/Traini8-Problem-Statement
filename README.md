@@ -75,6 +75,7 @@ GET: http://localhost:8080/api/v1/training/center/get/pgNo/2/pgSize/6/field/cent
 
 JSON Response :
 
+{
 [
     {
         "centerCode": "TC02RR5KAH1X",
@@ -136,65 +137,7 @@ JSON Response :
         "email": "chandigarhskill@training.com",
         "phoneNumber": "9988556677"
     },
-    {
-        "centerCode": "TC6LYPL3HCOF",
-        "centerName": "Bhopal Tech Training",
-        "address": {
-            "id": 13,
-            "detailedAddress": "101 Code Avenue",
-            "city": "Bhopal",
-            "state": "Madhya Pradesh",
-            "pinCode": "462001"
-        },
-        "studentCapacity": 130,
-        "coursesOffered": [
-            "Cyber Security",
-            "Ethical Hacking",
-            "Networking"
-        ],
-        "createdOn": 1739528527,
-        "email": "bhopaltechtrain@academy.com",
-        "phoneNumber": "9871234560"
-    },
-    {
-        "centerCode": "TCQ0HC65J63C",
-        "centerName": "Bangalore Code Academy",
-        "address": {
-            "id": 6,
-            "detailedAddress": "22 Software Lane",
-            "city": "Bangalore",
-            "state": "Karnataka",
-            "pinCode": "560100"
-        },
-        "studentCapacity": 120,
-        "coursesOffered": [
-            "Kubernetes",
-            "ReactJS",
-            "Spring Boot"
-        ],
-        "createdOn": 1739528459,
-        "email": "bangaloreca@edu.com",
-        "phoneNumber": "9123456789"
-    },
-    {
-        "centerCode": "TCLOZPFSN9YI",
-        "centerName": "Ahmedabad Training Institute",
-        "address": {
-            "id": 11,
-            "detailedAddress": "12 Learning Street",
-            "city": "Ahmedabad",
-            "state": "Gujarat",
-            "pinCode": "380015"
-        },
-        "studentCapacity": 220,
-        "coursesOffered": [
-            "DevOps",
-            "AWS",
-            "Terraform"
-        ],
-        "createdOn": 1739528511,
-        "email": "ahmedabadinstitute@learn.com",
-        "phoneNumber": "9911223344"
-    }
+    ........    
 ]
+}
 
