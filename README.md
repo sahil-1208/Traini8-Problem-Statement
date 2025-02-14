@@ -76,7 +76,7 @@ GET: http://localhost:8080/api/v1/training/center/get/pgNo/2/pgSize/6/field/cent
 JSON Response :
 
 {
-[
+  [
     {
         "centerCode": "TC02RR5KAH1X",
         "centerName": "Delhi Tech Academy",
@@ -138,6 +138,6 @@ JSON Response :
         "phoneNumber": "9988556677"
     },
     ........    
-]
+  ]
 }
 
